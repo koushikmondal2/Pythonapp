@@ -1,5 +1,5 @@
+--find-links wheelhouse
 django ==2.0.2
 pyodbc
 django-pyodbc
 django-pyodbc-azure
-pycrypto==2.6.1
