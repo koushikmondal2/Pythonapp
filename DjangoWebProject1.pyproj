@@ -61,6 +61,7 @@
     <Folder Include="Firstapp\" />
     <Folder Include="Firstapp\migrations\" />
     <Folder Include="Firstapp\templates\" />
+    <Folder Include="wheelhouse\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".deployment" />
@@ -97,6 +98,7 @@
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
     <Content Include="web.config" />
+    <Content Include="wheelhouse\pyodbc-4.0.22-cp34-cp34m-win32.whl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.mht">

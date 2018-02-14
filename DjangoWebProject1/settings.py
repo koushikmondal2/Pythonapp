@@ -79,15 +79,12 @@ WSGI_APPLICATION = 'DjangoWebProject1.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'sqldbforpythonwebapp',
-		'HOST':'sqlserverforpython.database.windows.net',
-		'PORT':'1433',
-		'USER':'koushikmondal2',
-		'PASSWORD':'Password@123',
-		'OPTIONS': {
-			'driver': 'SQL Server Native Client 11.0',
-		},
+        'ENGINE': '',
+        'NAME': '',
+		'HOST':'',
+		'PORT':'',
+		'USER':'',
+		'PASSWORD':''
     }
 }
 
