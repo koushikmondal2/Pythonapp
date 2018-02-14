@@ -45,6 +45,7 @@
     <Compile Include="DjangoWebProject1\settings.py" />
     <Compile Include="DjangoWebProject1\urls.py" />
     <Compile Include="DjangoWebProject1\wsgi.py" />
+    <Compile Include="ptvs_virtualenv_proxy.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
@@ -62,6 +63,8 @@
     <Folder Include="Firstapp\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".deployment" />
+    <Content Include="deploy.cmd" />
     <Content Include="Firstapp\templates\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
@@ -93,6 +96,7 @@
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
+    <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.mht">
